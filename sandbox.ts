@@ -11,3 +11,7 @@ let names = ["matt", "Sabrina", "Elysia"];
  names.push("Jetra");
 
  console.log(names);
+
+  let mixed = ["Kenya", 254, "Uganda",255];
+  mixed.push("Tanzania", 256);
+  console.log(mixed);

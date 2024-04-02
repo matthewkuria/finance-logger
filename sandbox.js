@@ -8,3 +8,6 @@ console.log(circ(14));
 var names = ["matt", "Sabrina", "Elysia"];
 names.push("Jetra");
 console.log(names);
+var mixed = ["Kenya", 254, "Uganda", 255];
+mixed.push("Tanzania", 256);
+console.log(mixed);
