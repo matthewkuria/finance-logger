@@ -15,3 +15,13 @@ let names = ["matt", "Sabrina", "Elysia"];
   let mixed = ["Kenya", 254, "Uganda",255];
   mixed.push("Tanzania", 256);
   console.log(mixed);
+
+
+//   Objects
+let ninja = {
+    name: "Matt",
+    belt : "Black",
+    age : 30,
+}
+ninja.age = 34;
+console.log(ninja);
