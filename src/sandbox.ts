@@ -49,3 +49,11 @@ const sum = (a: number, b:number, c?:number | string) =>{
     console.log(a+b)
 }
 sum(6,7);
+// Add alias
+
+type UserID = number;
+
+function getUserID(id: UserID){
+    console.log("Getting User ID:", id);
+}
+getUserID(123);

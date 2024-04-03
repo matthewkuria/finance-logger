@@ -41,3 +41,7 @@ const sum = (a, b, c) => {
     console.log(a + b);
 };
 sum(6, 7);
+function getUserID(id) {
+    console.log("Getting User ID:", id);
+}
+getUserID(123);
