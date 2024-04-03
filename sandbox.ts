@@ -25,3 +25,12 @@ let ninja = {
 }
 ninja.age = 34;
 console.log(ninja);
+
+// any type
+let age : any;
+age = 25;
+age = "hello"
+age={
+    name:"Matt",
+    home:254,
+}

@@ -19,3 +19,11 @@ var ninja = {
 };
 ninja.age = 34;
 console.log(ninja);
+// any type
+var age;
+age = 25;
+age = "hello";
+age = {
+    name: "Matt",
+    home: 254,
+};
