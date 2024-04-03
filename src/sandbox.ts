@@ -43,3 +43,9 @@ mixed.push("brocolli","peas", "beans")
 console.log(mixed)
 mixed.pop();
 console.log(mixed)
+
+// Functions in TS
+const sum = (a: number, b:number, c?:number | string) =>{
+    console.log(a+b)
+}
+sum(6,7);
