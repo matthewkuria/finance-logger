@@ -12,9 +12,9 @@ let names = ["matt", "Sabrina", "Elysia"];
 
  console.log(names);
 
-  let mixed = ["Kenya", 254, "Uganda",255];
-  mixed.push("Tanzania", 256);
-  console.log(mixed);
+//   let mixed = ["Kenya", 254, "Uganda",255];
+//   mixed.push("Tanzania", 256);
+//   console.log(mixed);
 
 
 //   Objects
@@ -34,3 +34,8 @@ age={
     name:"Matt",
     home:254,
 }
+let mixed : any[] = [];
+mixed.push("brocolli","peas", "beans")
+console.log(mixed)
+mixed.pop();
+console.log(mixed)

@@ -8,9 +8,9 @@ console.log(circ(14));
 var names = ["matt", "Sabrina", "Elysia"];
 names.push("Jetra");
 console.log(names);
-var mixed = ["Kenya", 254, "Uganda", 255];
-mixed.push("Tanzania", 256);
-console.log(mixed);
+//   let mixed = ["Kenya", 254, "Uganda",255];
+//   mixed.push("Tanzania", 256);
+//   console.log(mixed);
 //   Objects
 var ninja = {
     name: "Matt",
@@ -27,3 +27,8 @@ age = {
     name: "Matt",
     home: 254,
 };
+var mixed = [];
+mixed.push("brocolli", "peas", "beans");
+console.log(mixed);
+mixed.pop();
+console.log(mixed);
