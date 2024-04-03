@@ -19,6 +19,9 @@ var ninja = {
 };
 ninja.age = 34;
 console.log(ninja);
+var obj = { width: 10, height: 23 };
+var area = obj.height * obj.width;
+console.log(area);
 // any type
 var age;
 age = 25;

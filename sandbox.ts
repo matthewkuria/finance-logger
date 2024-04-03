@@ -26,6 +26,10 @@ let ninja = {
 ninja.age = 34;
 console.log(ninja);
 
+const obj = {width: 10 , height: 23};
+const area = obj.height * obj.width;
+console.log(area)
+
 // any type
 let age : any;
 age = 25;
