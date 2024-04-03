@@ -1,36 +1,37 @@
-var characters = "Matt";
+"use strict";
+const characters = "Matt";
 console.log(characters);
-var circ = function (diameter) {
+const circ = (diameter) => {
     return diameter * Math.PI;
 };
 console.log(circ(14));
 // Arrays and objects
-var names = ["matt", "Sabrina", "Elysia"];
+let names = ["matt", "Sabrina", "Elysia"];
 names.push("Jetra");
 console.log(names);
 //   let mixed = ["Kenya", 254, "Uganda",255];
 //   mixed.push("Tanzania", 256);
 //   console.log(mixed);
 //   Objects
-var ninja = {
+let ninja = {
     name: "Matt",
     belt: "Black",
     age: 30,
 };
 ninja.age = 34;
 console.log(ninja);
-var obj = { width: 10, height: 23 };
-var area = obj.height * obj.width;
+const obj = { width: 10, height: 23 };
+const area = obj.height * obj.width;
 console.log(area);
 // any type
-var age;
+let age;
 age = 25;
 age = "hello";
 age = {
     name: "Matt",
     home: 254,
 };
-var mixed = [];
+let mixed = [];
 mixed.push("brocolli", "peas", "beans");
 console.log(mixed);
 mixed.pop();
