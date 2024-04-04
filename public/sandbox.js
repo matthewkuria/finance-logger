@@ -51,3 +51,6 @@ const anchor = document.querySelector('a'); //Add an exclamation mark at the end
 //     console.log(anchor.href);
 // }
 console.log(anchor.href);
+// Grab form tags and children
+const form = document.querySelector("form");
+console.log(form);
