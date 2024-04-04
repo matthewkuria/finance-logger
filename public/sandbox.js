@@ -52,5 +52,6 @@ const anchor = document.querySelector('a'); //Add an exclamation mark at the end
 // }
 console.log(anchor.href);
 // Grab form tags and children
-const form = document.querySelector("form");
-console.log(form);
+// const form = document.querySelector("form")!;
+const form = document.querySelector('.new-item-form');
+console.log(form.children);
