@@ -45,3 +45,8 @@ function getUserID(id) {
     console.log("Getting User ID:", id);
 }
 getUserID(123);
+// add and a DOM
+const anchor = document.querySelector('a');
+if (anchor) {
+    console.log(anchor.href);
+}
