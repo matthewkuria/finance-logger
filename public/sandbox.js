@@ -54,4 +54,14 @@ console.log(anchor.href);
 // Grab form tags and children
 // const form = document.querySelector("form")!;
 const form = document.querySelector('.new-item-form');
-console.log(form.children);
+// inputs
+const type = document.querySelector('#type');
+const toFrom = document.querySelector('#tofrom');
+const details = document.querySelector('#details');
+const amount = document.querySelector('#amount');
+// add an event listener
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    console.log(type.value, toFrom.value, details.value, amount.value);
+});
+console.log(form.childNodes);
