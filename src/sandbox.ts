@@ -1,3 +1,4 @@
+import { Invoice } from "./classes/Invoice.js"
 const characters = "Matt";
 console.log(characters);
 
@@ -86,22 +87,7 @@ form.addEventListener('submit', (e: Event) =>{
     )
 })
 console.log(form.childNodes);
-// Create a class Invoice
-class Invoice{
-    client: string;
-    details: string;
-    amount: number;
 
-    constructor(c:string, d:string, a:number){
-        this.client= c;
-        this.details= d;
-        this.amount= a;
-
-    }
-    format(){
-        return `${this.client} owes ${this.amount} for ${this.details}`
-    }
-}
 // create an instance of class that is an object
 const InvOne = new Invoice("Sabrina","Building a website", 20000);
 console.log(InvOne);
