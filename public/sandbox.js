@@ -72,3 +72,7 @@ console.log(invOne, invTwo);
 let invoices = [];
 invoices.push(invOne);
 invoices.push(invTwo);
+console.log(invoices);
+invoices.forEach(inv => {
+    console.log(inv.client, inv.details, inv.amount);
+});
