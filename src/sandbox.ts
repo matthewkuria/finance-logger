@@ -85,7 +85,17 @@ form.addEventListener('submit', (e: Event) =>{
 
     )
 })
-
-
-
 console.log(form.childNodes);
+// Create a class Invoice
+class Invoice{
+    client: string;
+    details: string;
+    amount: number;
+
+    constructor(c:string, d:details, a:amount){
+        this.client= a;
+        this.details= d;
+        this.amount= a;
+
+    }
+}
