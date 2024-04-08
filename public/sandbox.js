@@ -66,5 +66,9 @@ form.addEventListener('submit', (e) => {
 });
 console.log(form.childNodes);
 // create an instance of class that is an object
-const InvOne = new Invoice("Sabrina", "Building a website", 20000);
-console.log(InvOne);
+const invOne = new Invoice("Sabrina", "Building a website", 20000);
+const invTwo = new Invoice("Elysia", "Building a website", 94000);
+console.log(invOne, invTwo);
+let invoices = [];
+invoices.push(invOne);
+invoices.push(invTwo);
