@@ -78,3 +78,4 @@ class Invoice {
 }
 // create an instance of class that is an object
 const InvOne = new Invoice("Sabrina", "Building a website", 20000);
+console.log(InvOne);
