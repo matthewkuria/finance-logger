@@ -20,6 +20,7 @@ form.addEventListener('submit', (e: Event) =>{
     else{
         doc = new Payment(toFrom.value, details.value, amount.valueAsNumber);
     }
+    console.log(doc);
     // console.log(
     //     type.value,
     //     toFrom.value,
@@ -28,7 +29,7 @@ form.addEventListener('submit', (e: Event) =>{
 
     // )
 })
-console.log(form.childNodes);
+
 
 // // create an instance of class that is an object
 // const invOne = new Invoice("Sabrina","Building a website", 20000);
