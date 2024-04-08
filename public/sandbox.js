@@ -68,7 +68,7 @@ console.log(form.childNodes);
 // Create a class Invoice
 class Invoice {
     constructor(c, d, a) {
-        this.client = a;
+        this.client = c;
         this.details = d;
         this.amount = a;
     }

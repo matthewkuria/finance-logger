@@ -92,8 +92,8 @@ class Invoice{
     details: string;
     amount: number;
 
-    constructor(c:string, d:details, a:amount){
-        this.client= a;
+    constructor(c:string, d:string, a:number){
+        this.client= c;
         this.details= d;
         this.amount= a;
 
