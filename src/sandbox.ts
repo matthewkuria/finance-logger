@@ -102,3 +102,5 @@ class Invoice{
         return `${this.client} owes ${this.amount} for ${this.details}`
     }
 }
+// create an instance of class that is an object
+const InvOne = new Invoice("Sabrina","Building a website", 20000);
