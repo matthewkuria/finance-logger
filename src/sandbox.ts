@@ -20,9 +20,11 @@ const list = new ListTemplate(ul);
 // add an event listener
 form.addEventListener('submit', (e: Event) =>{
     e.preventDefault();
+
     // use a tuple to store the values from Invoice class
     let values: [string, string, number];
     values = [toFrom.value, details.value, amount.valueAsNumber];
+    
     let doc : HasFormatter;
     if(type.value ==="invoice"){
         doc = new Invoice(...values);
