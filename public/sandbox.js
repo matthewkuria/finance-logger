@@ -22,5 +22,9 @@ form.addEventListener('submit', (e) => {
     else {
         doc = new Payment(toFrom.value, details.value, amount.valueAsNumber);
     }
-    list.render(doc, type.value, "start");
+    list.render(doc, type.value, "end");
 });
+// tuples
+let student;
+student = ["Matt", 6304];
+console.log(student);
