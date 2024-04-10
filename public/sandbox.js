@@ -31,3 +31,44 @@ form.addEventListener('submit', (e) => {
 // let student: [string, number];
 // student= ["Matt", 6304];
 // console.log(student);
+// let user :{
+//     name: string,
+//     age: number,
+//     location: string,
+// };
+//  user ={
+//     name: "Matt",
+//     age: 34,
+//     location:""
+// };
+// user.location = "nakuru";
+// console.log(user);
+// Function to greet
+function greetPerson(person, date) {
+    console.log(`Hey ${person}  today is ${date.toDateString()}`);
+}
+greetPerson("Matt", new Date());
+let names = [];
+names.push("Matt", "sabrina", "Terry");
+console.log(names);
+let toUpperCase = names.forEach((s) => {
+    console.log(s.slice(0, 1).toLocaleUpperCase() + s.slice(1));
+});
+function printId(id) {
+    if (typeof id === "string") {
+        console.log(id.toUpperCase());
+    }
+    else {
+        console.log(id);
+    }
+}
+printId(1234);
+printId("Jom0ki1");
+function padLeft(padding, input) {
+    if (typeof padding === "number") {
+        return "".repeat(padding) + input;
+    }
+    else {
+        return padding + input;
+    }
+}
