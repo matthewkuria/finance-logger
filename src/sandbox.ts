@@ -85,3 +85,23 @@ function padLeft(padding: number | string, input:string): string{
         return padding + input;
     }
 }
+
+function getUsersOnline(numberOfUsers: number){
+    if(numberOfUsers){
+        console.log(`There are ${numberOfUsers}users online at the moment`)
+    }
+    else{
+        console.log("Cannot tell the number of users online")
+    }
+}
+getUsersOnline(NaN);
+
+type Bird ={fly: () => void}
+type Fish = { swim: () =>void}
+
+function move(animal: Bird | Fish){
+    if("swim" in animal){
+        return animal.swim();
+    }
+    return animal.fly();
+}

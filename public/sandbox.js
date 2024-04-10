@@ -72,3 +72,18 @@ function padLeft(padding, input) {
         return padding + input;
     }
 }
+function getUsersOnline(numberOfUsers) {
+    if (numberOfUsers) {
+        console.log(`There are ${numberOfUsers}users online at the moment`);
+    }
+    else {
+        console.log("Cannot tell the number of users online");
+    }
+}
+getUsersOnline(NaN);
+function move(animal) {
+    if ("swim" in animal) {
+        return animal.swim();
+    }
+    return animal.fly();
+}
